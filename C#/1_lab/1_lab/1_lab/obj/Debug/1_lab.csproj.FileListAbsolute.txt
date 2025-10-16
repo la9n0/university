@@ -1,0 +1,6 @@
+/home/vl/university/3_sem/oop/1_lab/1_lab/1_lab/bin/Debug/_1_lab.exe
+/home/vl/university/3_sem/oop/1_lab/1_lab/1_lab/bin/Debug/_1_lab.pdb
+/home/vl/university/3_sem/oop/1_lab/1_lab/1_lab/obj/Debug/1_lab.csproj.AssemblyReference.cache
+/home/vl/university/3_sem/oop/1_lab/1_lab/1_lab/obj/Debug/1_lab.csproj.CoreCompileInputs.cache
+/home/vl/university/3_sem/oop/1_lab/1_lab/1_lab/obj/Debug/_1_lab.exe
+/home/vl/university/3_sem/oop/1_lab/1_lab/1_lab/obj/Debug/_1_lab.pdb
