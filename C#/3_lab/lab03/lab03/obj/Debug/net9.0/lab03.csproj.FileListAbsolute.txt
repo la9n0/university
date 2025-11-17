@@ -1,0 +1,14 @@
+E:\3_lab\lab03\lab03\bin\Debug\net9.0\lab03.exe
+E:\3_lab\lab03\lab03\bin\Debug\net9.0\lab03.deps.json
+E:\3_lab\lab03\lab03\bin\Debug\net9.0\lab03.runtimeconfig.json
+E:\3_lab\lab03\lab03\bin\Debug\net9.0\lab03.dll
+E:\3_lab\lab03\lab03\bin\Debug\net9.0\lab03.pdb
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.GeneratedMSBuildEditorConfig.editorconfig
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.AssemblyInfoInputs.cache
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.AssemblyInfo.cs
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.csproj.CoreCompileInputs.cache
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.dll
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\refint\lab03.dll
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.pdb
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\lab03.genruntimeconfig.cache
+E:\3_lab\lab03\lab03\obj\Debug\net9.0\ref\lab03.dll
