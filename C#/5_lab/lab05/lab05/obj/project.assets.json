@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\5_lab\\lab05\\lab05\\lab05.csproj",
+      "projectUniqueName": "D:\\university\\GitHub\\C#\\5_lab\\lab05\\lab05\\lab05.csproj",
       "projectName": "lab05",
-      "projectPath": "E:\\5_lab\\lab05\\lab05\\lab05.csproj",
+      "projectPath": "D:\\university\\GitHub\\C#\\5_lab\\lab05\\lab05\\lab05.csproj",
       "packagesPath": "C:\\Users\\robot\\.nuget\\packages\\",
-      "outputPath": "E:\\5_lab\\lab05\\lab05\\obj\\",
+      "outputPath": "D:\\university\\GitHub\\C#\\5_lab\\lab05\\lab05\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

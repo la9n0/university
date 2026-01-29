@@ -3,7 +3,6 @@ using System.Data.SqlTypes;
 using System.Text;
 using System.Linq;
 using System.Text.Json;
-using System.IO;
 
 namespace lab07
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2_lab\\lab02\\lab02\\lab02.csproj": {}
+    "D:\\university\\GitHub\\C#\\2_lab\\lab02\\lab02\\lab02.csproj": {}
   },
   "projects": {
-    "E:\\2_lab\\lab02\\lab02\\lab02.csproj": {
+    "D:\\university\\GitHub\\C#\\2_lab\\lab02\\lab02\\lab02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2_lab\\lab02\\lab02\\lab02.csproj",
+        "projectUniqueName": "D:\\university\\GitHub\\C#\\2_lab\\lab02\\lab02\\lab02.csproj",
         "projectName": "lab02",
-        "projectPath": "E:\\2_lab\\lab02\\lab02\\lab02.csproj",
+        "projectPath": "D:\\university\\GitHub\\C#\\2_lab\\lab02\\lab02\\lab02.csproj",
         "packagesPath": "C:\\Users\\robot\\.nuget\\packages\\",
-        "outputPath": "E:\\2_lab\\lab02\\lab02\\obj\\",
+        "outputPath": "D:\\university\\GitHub\\C#\\2_lab\\lab02\\lab02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
