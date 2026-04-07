@@ -1,0 +1,14 @@
+D:\university\4_sem\oop\2_lab\lab02\lab02\bin\Debug\net8.0-windows\lab02.exe
+D:\university\4_sem\oop\2_lab\lab02\lab02\bin\Debug\net8.0-windows\lab02.deps.json
+D:\university\4_sem\oop\2_lab\lab02\lab02\bin\Debug\net8.0-windows\lab02.runtimeconfig.json
+D:\university\4_sem\oop\2_lab\lab02\lab02\bin\Debug\net8.0-windows\lab02.dll
+D:\university\4_sem\oop\2_lab\lab02\lab02\bin\Debug\net8.0-windows\lab02.pdb
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.AssemblyInfoInputs.cache
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.AssemblyInfo.cs
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.csproj.CoreCompileInputs.cache
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.dll
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\refint\lab02.dll
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.pdb
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\lab02.genruntimeconfig.cache
+D:\university\4_sem\oop\2_lab\lab02\lab02\obj\Debug\net8.0-windows\ref\lab02.dll

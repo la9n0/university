@@ -1,0 +1,194 @@
+﻿<Window x:Class="lab05.GunsList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:lab05"
+        Title="Products"
+        SizeToContent="Height"
+        MinHeight="400"
+        Width="1000"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5">
+
+    <Window.Resources>
+        <local:DiscountConverter x:Key="DiscountConverter"/>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верх -->
+        <Grid Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Orientation="Vertical">
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <TextBlock Text="{DynamicResource SearchBy}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,5,0"/>
+
+                    <ComboBox Width="120" Margin="0,0,5,0" Name="SearchCombo">
+                        <ComboBoxItem Content="{DynamicResource Name}"/>
+                        <ComboBoxItem Content="{DynamicResource Category}"/>
+                        <ComboBoxItem Content="{DynamicResource Country}"/>
+                    </ComboBox>
+
+                    <TextBox Width="200" Name="SearchText"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{DynamicResource SortBy}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,5,0"/>
+
+                    <ComboBox Width="150" Name="SortByCombobox" SelectionChanged="SortCardsBy">
+                        <ComboBoxItem Content="{DynamicResource Price}"/>
+                        <ComboBoxItem Content="{DynamicResource Discount}"/>
+                        <ComboBoxItem Content="{DynamicResource Quantity}"/>
+                    </ComboBox>
+
+                    <ComboBox Width="150" Name="HowSortCombobox" SelectionChanged="SortCardsBy">
+                        <ComboBoxItem Content="{DynamicResource Ascending}"/>
+                        <ComboBoxItem Content="{DynamicResource Descending}"/>
+                    </ComboBox>
+                </StackPanel>
+
+            </StackPanel>
+
+            <StackPanel Grid.Column="1"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top">
+
+                <TextBlock x:Name="RoleText"
+                           VerticalAlignment="Center"
+                           Foreground="Blue"
+                           Margin="0,0,10,0"/>
+
+                <Button x:Name="AddButton"
+                        Content="{DynamicResource Add}"
+                        Width="90"
+                        Margin="5"
+                        Click="AddButton_Click"/>
+
+                <Button x:Name="DeleteButton"
+                        Content="{DynamicResource Delete}"
+                        Width="90"
+                        Margin="5"
+                        Click="DeleteButton_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Список -->
+        <ItemsControl Grid.Row="1"
+                      ItemsSource="{Binding Guns}">
+                
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#DDD"
+                            BorderThickness="1"
+                            CornerRadius="10"
+                            Margin="8"
+                            Padding="8"
+                            Height="240"
+                            Background="White"
+                            PreviewMouseLeftButtonDown="Button_MouseDown">
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Image Source="{Binding imagePath[0]}"
+                                   Stretch="UniformToFill"
+                                   Height="100"/>
+
+                            <TextBlock Text="{Binding name}"
+                                       FontWeight="Bold"
+                                       Grid.Row="1"/>
+
+                            <TextBlock Text="{Binding description}"
+                                       Grid.Row="2"
+                                       TextWrapping="Wrap"/>
+
+                            <StackPanel Grid.Row="3" Margin="0,5,0,0">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{DynamicResource Cost}"/>
+                                    <TextBlock Text="{Binding price}"
+                                               Grid.Column="1"
+                                               HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{DynamicResource DiscountLabel}"/>
+                                    <TextBlock Grid.Column="1"
+                                               HorizontalAlignment="Right"
+                                               Text="{Binding discount, StringFormat={}{0}%}"/>
+
+                                    <Grid.Style>
+                                        <Style TargetType="Grid">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding discount}" Value="0">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Grid.Style>
+                                </Grid>
+
+                                <TextBlock HorizontalAlignment="Right"
+                                           FontWeight="Bold"
+                                           Foreground="Red">
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource DiscountConverter}">
+                                            <Binding Path="price"/>
+                                            <Binding Path="discount"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding discount}" Value="0">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+
+        </ItemsControl>
+    </Grid>
+</Window>

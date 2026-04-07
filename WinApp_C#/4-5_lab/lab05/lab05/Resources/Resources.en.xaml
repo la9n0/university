@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LoginLabel">Login</sys:String>
+    <sys:String x:Key="PasswordLabel">Password</sys:String>
+    <sys:String x:Key="LoginButton">Sign in</sys:String>
+    <sys:String x:Key="ErrorText">Invalid credentials</sys:String>
+    <sys:String x:Key="LanguageLabel">Language:</sys:String>
+    
+    <sys:String x:Key="SearchBy">Search by:</sys:String>
+    <sys:String x:Key="SortBy">Sort by:</sys:String>
+
+    <sys:String x:Key="Name">Name</sys:String>
+    <sys:String x:Key="Category">Category</sys:String>
+    <sys:String x:Key="Country">Country</sys:String>
+
+    <sys:String x:Key="Price">Price</sys:String>
+    <sys:String x:Key="Discount">Discount</sys:String>
+    <sys:String x:Key="Quantity">Quantity</sys:String>
+
+    <sys:String x:Key="Ascending">Ascending</sys:String>
+    <sys:String x:Key="Descending">Descending</sys:String>
+
+    <sys:String x:Key="Add">Add</sys:String>
+    <sys:String x:Key="Delete">Delete</sys:String>
+
+    <sys:String x:Key="Cost">Cost:</sys:String>
+    <sys:String x:Key="DiscountLabel">Discount:</sys:String>
+    <sys:String x:Key="Mode">Mode:</sys:String>
+    <sys:String x:Key="DiscountPrice">Discount price:</sys:String>
+    
+    <sys:String x:Key="Edit">Edit</sys:String>
+    <sys:String x:Key="Save">Save</sys:String>
+    <sys:String x:Key="Cancel">Cancel</sys:String>
+    
+    <sys:String x:Key="ProductDiscountLabel">Discount:</sys:String>
+    <sys:String x:Key="ProductPriceLabel">Price:</sys:String>
+    <sys:String x:Key="ProductNameLabel">Name:</sys:String>
+    <sys:String x:Key="ProductDescriptionLabel">Description:</sys:String>
+    <sys:String x:Key="ProductCategoryLabel">Category:</sys:String>
+    <sys:String x:Key="ProductQuantityLabel">Quantity:</sys:String>
+    <sys:String x:Key="ProductCountryLabel">Country:</sys:String>
+</ResourceDictionary>

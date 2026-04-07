@@ -1,0 +1,14 @@
+D:\university\4_sem\oop\1_lab\lab01\lab01\bin\Debug\net8.0-windows\lab01.exe
+D:\university\4_sem\oop\1_lab\lab01\lab01\bin\Debug\net8.0-windows\lab01.deps.json
+D:\university\4_sem\oop\1_lab\lab01\lab01\bin\Debug\net8.0-windows\lab01.runtimeconfig.json
+D:\university\4_sem\oop\1_lab\lab01\lab01\bin\Debug\net8.0-windows\lab01.dll
+D:\university\4_sem\oop\1_lab\lab01\lab01\bin\Debug\net8.0-windows\lab01.pdb
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.AssemblyInfoInputs.cache
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.AssemblyInfo.cs
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.csproj.CoreCompileInputs.cache
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.dll
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\refint\lab01.dll
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.pdb
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\lab01.genruntimeconfig.cache
+D:\university\4_sem\oop\1_lab\lab01\lab01\obj\Debug\net8.0-windows\ref\lab01.dll

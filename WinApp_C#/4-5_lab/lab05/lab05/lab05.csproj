@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\Arrow.cur" />
+      <Resource Include="Resources\Arrow.cur" />
+      <None Remove="Resources\app.ico" />
+      <Resource Include="Resources\app.ico" />
+      <Page Remove="Resources\Theme.xaml" />
+    </ItemGroup>
+
+</Project>
