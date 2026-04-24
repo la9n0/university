@@ -1,0 +1,38 @@
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.exe
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.deps.json
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.runtimeconfig.json
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.dll
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.pdb
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\DAL003.dll
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\bin\Debug\net8.0\DAL003.pdb
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.csproj.AssemblyReference.cache
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.GeneratedMSBuildEditorConfig.editorconfig
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.AssemblyInfoInputs.cache
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.AssemblyInfo.cs
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.csproj.CoreCompileInputs.cache
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.csproj.CopyComplete
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.dll
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\refint\Test_DAL003.dll
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.pdb
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.genruntimeconfig.cache
+D:\Денис\4 сем\ТПВИ\laba3\Test_DAL003\obj\Debug\net8.0\ref\Test_DAL003.dll
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.exe
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.deps.json
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.runtimeconfig.json
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.dll
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\Test_DAL003.pdb
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\DAL003.dll
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\bin\Debug\net8.0\DAL003.pdb
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.csproj.AssemblyReference.cache
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.AssemblyInfoInputs.cache
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.AssemblyInfo.cs
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.csproj.CoreCompileInputs.cache
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL.FC65118E.Up2Date
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.dll
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\refint\Test_DAL003.dll
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.pdb
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\Test_DAL003.genruntimeconfig.cache
+D:\university\4_sem\tpi\3_lab\laba3\Test_DAL003\obj\Debug\net8.0\ref\Test_DAL003.dll

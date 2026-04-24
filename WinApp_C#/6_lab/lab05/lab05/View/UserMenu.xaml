@@ -1,0 +1,200 @@
+﻿<Window x:Class="lab05.UserMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource UserMenuTitle}"
+        Height="600" Width="700"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+
+    <Window.Resources>
+        
+        <Style TargetType="Border">
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="{DynamicResource ButtonsColor}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+        
+        <Style TargetType="TextBox">
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="Background" Value="{DynamicResource TextboxColor}"/>
+            <Setter Property="Foreground" Value="{DynamicResource TextColor}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{DynamicResource TextColor}"/>
+        </Style>
+
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{DynamicResource ButtonsColor}"/>
+            <Setter Property="Foreground" Value="{DynamicResource TextColor}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+
+        <Style TargetType="ScrollBar">
+            <Setter Property="Background" Value="{DynamicResource ScrollBarColor}"/>
+            <Setter Property="Foreground" Value="{DynamicResource AccentColor}"/>
+        </Style>
+
+    </Window.Resources>
+
+
+    <Border Background="{DynamicResource BackgroundColor}"
+            BorderBrush="{DynamicResource WindowBorderBrush}"
+            BorderThickness="1">
+
+        <Grid x:Name="RootGrid">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <Grid Grid.Row="0"
+                  MouseLeftButtonDown="TitleBar_MouseDown">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="{DynamicResource UserMenuTitle}"
+                           VerticalAlignment="Center"
+                           Margin="10,0"
+                           Foreground="{DynamicResource BigTextColor}"/>
+
+                <StackPanel Grid.Column="1"
+                            Orientation="Horizontal">
+
+                    <Button Content="—"
+                            Width="40"
+                            Click="Minimize_Click"/>
+
+                    <Button Content="✕"
+                            Width="40"
+                            Click="Close_Click"/>
+                </StackPanel>
+
+            </Grid>
+
+
+            <Grid Grid.Row="1" Margin="10">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+
+                    <Button x:Name="EditButton"
+                            Content="{DynamicResource UserMenuEdit}"
+                            Margin="0,0,10,0"
+                            Click="EditButton_Click"/>
+
+                    <Button x:Name="SaveButton"
+                            Content="{DynamicResource UserMenuSave}"
+                            Visibility="Collapsed"
+                            Margin="0,0,10,0"
+                            Click="SaveButton_Click"/>
+
+                    <Button x:Name="CancelButton"
+                            Content="{DynamicResource UserMenuCancel}"
+                            Visibility="Collapsed"
+                            Margin="0,0,10,0"
+                            Click="CancelButton_Click"/>
+
+                    <Button x:Name="ExitButton"
+                            Content="{DynamicResource UserMenuExit}"
+                            Click="ExitButton_Click"/>
+                </StackPanel>
+            </Grid>
+            
+            <ScrollViewer Grid.Row="2">
+
+                <StackPanel>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuUsername}"/>
+                            <TextBox x:Name="UsernameBox"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuPassword}"/>
+                            <TextBox x:Name="PasswordBox"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuName}"/>
+                            <TextBox x:Name="NameBox"
+                                     PreviewTextInput="OnlyString"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuSurname}"/>
+                            <TextBox x:Name="SurnameBox"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuEmail}"/>
+                            <TextBox x:Name="EmailBox"
+                                     PreviewTextInput="OnlyText"
+                                     LostFocus="EmailCheck"/>
+                            <TextBlock x:Name="EmailError"
+                                       Text="{DynamicResource RegisterEmailError}"
+                                       Visibility="Hidden"
+                                       Foreground="Red"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuTheme}"/>
+
+                            <ComboBox x:Name="ThemeComboBox"
+                                      SelectionChanged="ThemeComboBox_SelectionChanged">
+                                <ComboBoxItem Content="{DynamicResource UserMenuThemeLight}"/>
+                                <ComboBoxItem Content="{DynamicResource UserMenuThemeDark}"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </Border>
+
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{DynamicResource UserMenuLanguage}"/>
+
+                            <ComboBox x:Name="LanguageCombo"
+                                      SelectionChanged="LanguageCombo_SelectionChanged">
+                                <ComboBoxItem Content="Русский"/>
+                                <ComboBoxItem Content="English"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </Border>
+
+                </StackPanel>
+            </ScrollViewer>
+
+        </Grid>
+    </Border>
+</Window>

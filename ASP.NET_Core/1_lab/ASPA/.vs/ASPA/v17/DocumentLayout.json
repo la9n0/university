@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\university\\4_sem\\tpi\\1_lab\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EDFFF53-E4AC-4DB0-8305-A2C54AC57F65}|ASPA001\\ASPA001.csproj|d:\\university\\4_sem\\tpi\\1_lab\\aspa\\aspa001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EDFFF53-E4AC-4DB0-8305-A2C54AC57F65}|ASPA001\\ASPA001.csproj|solutionrelative:aspa001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EDFFF53-E4AC-4DB0-8305-A2C54AC57F65}|ASPA001\\ASPA001.csproj|d:\\university\\4_sem\\tpi\\1_lab\\aspa\\aspa001\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EDFFF53-E4AC-4DB0-8305-A2C54AC57F65}|ASPA001\\ASPA001.csproj|solutionrelative:aspa001\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\university\\4_sem\\tpi\\1_lab\\ASPA\\ASPA001\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ASPA001\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\university\\4_sem\\tpi\\1_lab\\ASPA\\ASPA001\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ASPA001\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T11:01:50.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\university\\4_sem\\tpi\\1_lab\\ASPA\\ASPA001\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA001\\Program.cs",
+              "ToolTip": "D:\\university\\4_sem\\tpi\\1_lab\\ASPA\\ASPA001\\Program.cs",
+              "RelativeToolTip": "ASPA001\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:06:16.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

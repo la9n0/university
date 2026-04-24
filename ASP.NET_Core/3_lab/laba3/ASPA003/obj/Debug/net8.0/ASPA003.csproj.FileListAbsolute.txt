@@ -1,0 +1,66 @@
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\appsettings.Development.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\appsettings.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\libman.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\ASPA003.exe
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\ASPA003.deps.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\ASPA003.runtimeconfig.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\ASPA003.dll
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\ASPA003.pdb
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\DAL003.dll
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\bin\Debug\net8.0\DAL003.pdb
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.csproj.AssemblyReference.cache
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.GeneratedMSBuildEditorConfig.editorconfig
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.AssemblyInfoInputs.cache
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.AssemblyInfo.cs
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.csproj.CoreCompileInputs.cache
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.MvcApplicationPartsAssemblyInfo.cache
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.build.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.development.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.ASPA003.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.build.ASPA003.props
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASPA003.props
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASPA003.props
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\scopedcss\bundle\ASPA003.styles.css
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.csproj.CopyComplete
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.dll
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\refint\ASPA003.dll
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.pdb
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ASPA003.genruntimeconfig.cache
+D:\Денис\4 сем\ТПВИ\laba3\ASPA003\obj\Debug\net8.0\ref\ASPA003.dll
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\appsettings.Development.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\appsettings.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\libman.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\ASPA003.staticwebassets.endpoints.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\ASPA003.exe
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\ASPA003.deps.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\ASPA003.runtimeconfig.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\ASPA003.dll
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\ASPA003.pdb
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\DAL003.dll
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\bin\Debug\net8.0\DAL003.pdb
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.csproj.AssemblyReference.cache
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.AssemblyInfoInputs.cache
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.AssemblyInfo.cs
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.csproj.CoreCompileInputs.cache
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.MvcApplicationPartsAssemblyInfo.cache
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\scopedcss\bundle\ASPA003.styles.css
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.build.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.development.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.ASPA003.Microsoft.AspNetCore.StaticWebAssets.props
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.ASPA003.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.build.ASPA003.props
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASPA003.props
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASPA003.props
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.pack.json
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.csproj.Up2Date
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.dll
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\refint\ASPA003.dll
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.pdb
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ASPA003.genruntimeconfig.cache
+D:\university\4_sem\tpi\3_lab\laba3\ASPA003\obj\Debug\net8.0\ref\ASPA003.dll

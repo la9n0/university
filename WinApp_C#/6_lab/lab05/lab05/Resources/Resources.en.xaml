@@ -1,0 +1,93 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Mode">Mode:</sys:String>
+    <sys:String x:Key="LanguageLabel">Language:</sys:String>    
+    <sys:String x:Key="FillAllFields">Fill in all fields!</sys:String>
+    
+    <sys:String x:Key="LogInLoginLabel">Login</sys:String>
+    <sys:String x:Key="LogInPasswordLabel">Password</sys:String>
+    <sys:String x:Key="LogInLoginButton">Sign in</sys:String>
+    <sys:String x:Key="LogInErrorText">Invalid credentials</sys:String>
+    <sys:String x:Key="LogInRegistration">Registration</sys:String>
+    
+    <sys:String x:Key="GunListSearchBy">Search by:</sys:String>
+    <sys:String x:Key="GunListSortBy">Sort by:</sys:String>
+    <sys:String x:Key="GunListName">Name</sys:String>
+    <sys:String x:Key="GunListCategory">Category</sys:String>
+    <sys:String x:Key="GunListCountry">Country</sys:String>
+    <sys:String x:Key="GunListPrice">Price</sys:String>
+    <sys:String x:Key="GunListDiscount">Discount</sys:String>
+    <sys:String x:Key="GunListQuantity">Quantity</sys:String>
+    <sys:String x:Key="GunListAscending">Ascending</sys:String>
+    <sys:String x:Key="GunListDescending">Descending</sys:String>
+    <sys:String x:Key="GunListAdd">Add</sys:String>
+    <sys:String x:Key="GunListDelete">Delete</sys:String>
+    <sys:String x:Key="GunListCost">Cost:</sys:String>
+    <sys:String x:Key="GunListDiscountLabel">Discount:</sys:String>
+    <sys:String x:Key="GunListDiscountPrice">Discount price:</sys:String>
+    <sys:String x:Key="GunListAccount">Account</sys:String>
+    
+    <sys:String x:Key="ProductWindowEdit">Edit</sys:String>
+    <sys:String x:Key="ProductWindowSave">Save</sys:String>
+    <sys:String x:Key="ProductWindowCancel">Cancel</sys:String>
+    <sys:String x:Key="ProductWindowDiscountLabel">Discount:</sys:String>
+    <sys:String x:Key="ProductWindowPriceLabel">Price:</sys:String>
+    <sys:String x:Key="ProductWindowNameLabel">Name:</sys:String>
+    <sys:String x:Key="ProductWindowDescriptionLabel">Description:</sys:String>
+    <sys:String x:Key="ProductWindowCategoryLabel">Category:</sys:String>
+    <sys:String x:Key="ProductWindowQuantityLabel">Quantity:</sys:String>
+    <sys:String x:Key="ProductWindowCountryLabel">Country:</sys:String>
+    
+    <sys:String x:Key="AddProductTitle">Add Product</sys:String>
+    <sys:String x:Key="AddProductNewProduct">New Product</sys:String>
+    <sys:String x:Key="AddProductShortName">Short Name</sys:String>
+    <sys:String x:Key="AddProductFullName">Full Name</sys:String>
+    <sys:String x:Key="AddProductDescription">Description</sys:String>
+    <sys:String x:Key="AddProductFullDescription">Full Description</sys:String>
+    <sys:String x:Key="AddProductCategory">Category</sys:String>
+    <sys:String x:Key="AddProductPrice">Price</sys:String>
+    <sys:String x:Key="AddProductQuantity">Quantity</sys:String>
+    <sys:String x:Key="AddProductCountry">Country of Origin</sys:String>
+    <sys:String x:Key="AddProductDiscount">Discount (%)</sys:String>
+    <sys:String x:Key="AddProductImages">Images</sys:String>
+    <sys:String x:Key="AddProductSelectFiles">Select Files</sys:String>
+    <sys:String x:Key="AddProductCancel">Cancel</sys:String>
+    <sys:String x:Key="AddProductCreate">Create</sys:String>
+    <sys:String x:Key="AddProductAlreadyExists">A product with this name already exists</sys:String>
+    <sys:String x:Key="AddProductCategoryColdWeapons">Cold Weapons</sys:String>
+    <sys:String x:Key="AddProductCategoryPistols">Pistols</sys:String>
+    <sys:String x:Key="AddProductCategorySmg">Submachine Guns</sys:String>
+    <sys:String x:Key="AddProductCategoryRifles">Rifles</sys:String>
+    <sys:String x:Key="AddProductCategoryShotguns">Shotguns</sys:String>
+    <sys:String x:Key="AddProductCategorySniperRifles">Sniper Rifles</sys:String>
+    <sys:String x:Key="AddProductCategoryAmmo">Ammunition</sys:String>
+    
+    <sys:String x:Key="RegisterNewUser">New User</sys:String>
+    <sys:String x:Key="RegisterLogin">Login</sys:String>
+    <sys:String x:Key="RegisterPassword">Password</sys:String>
+    <sys:String x:Key="RegisterRepeatPassword">Repeat Password</sys:String>
+    <sys:String x:Key="RegisterFirstName">First Name</sys:String>
+    <sys:String x:Key="RegisterLastName">Last Name</sys:String>
+    <sys:String x:Key="RegisterEmailError">Invalid format</sys:String>
+    <sys:String x:Key="RegisterCancel">Cancel</sys:String>
+    <sys:String x:Key="RegisterCreate">Create</sys:String>
+    <sys:String x:Key="RegisterPasswordsDontMatch">Passwords don't match</sys:String>
+    <sys:String x:Key="RegisterAlreadyExists">This login is already taken</sys:String>
+    
+    <sys:String x:Key="UserMenuTitle">User Profile</sys:String>
+    <sys:String x:Key="UserMenuEdit">Edit</sys:String>
+    <sys:String x:Key="UserMenuSave">Save</sys:String>
+    <sys:String x:Key="UserMenuCancel">Cancel</sys:String>
+    <sys:String x:Key="UserMenuExit">Exit</sys:String>
+    <sys:String x:Key="UserMenuUsername">Username</sys:String>
+    <sys:String x:Key="UserMenuPassword">Password</sys:String>
+    <sys:String x:Key="UserMenuName">First Name</sys:String>
+    <sys:String x:Key="UserMenuSurname">Last Name</sys:String>
+    <sys:String x:Key="UserMenuEmail">Email</sys:String>
+    <sys:String x:Key="UserMenuTheme">Theme</sys:String>
+    <sys:String x:Key="UserMenuThemeLight">Light</sys:String>
+    <sys:String x:Key="UserMenuThemeDark">Dark</sys:String>
+    <sys:String x:Key="UserMenuBack">Back</sys:String>
+</ResourceDictionary>

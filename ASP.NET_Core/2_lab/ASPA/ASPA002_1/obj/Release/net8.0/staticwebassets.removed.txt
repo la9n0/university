@@ -1,0 +1,6 @@
+D:\university\4_sem\tpi\2_lab\ASPA\ASPA002_1\wwwroot\jpg\Berners-Lee.jpg
+D:\university\4_sem\tpi\2_lab\ASPA\ASPA002_1\wwwroot\jpg\Chomsky.jpg
+D:\university\4_sem\tpi\2_lab\ASPA\ASPA002_1\wwwroot\jpg\Codd.jpg
+D:\university\4_sem\tpi\2_lab\ASPA\ASPA002_1\wwwroot\jpg\Dijkstra.jpg
+D:\university\4_sem\tpi\2_lab\ASPA\ASPA002_1\wwwroot\jpg\Knuth.jpg
+D:\university\4_sem\tpi\2_lab\ASPA\ASPA002_1\wwwroot\jpg\Linus.jpg

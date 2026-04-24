@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="BackgroundColor" Color="#F8FAFC"/>
+    <SolidColorBrush x:Key="ButtonsColor" Color="#E2E8F0"/>
+    <SolidColorBrush x:Key="TextboxColor" Color="#FFFFFF"/>
+
+    <SolidColorBrush x:Key="BigTextColor" Color="#0F172A"/>
+    <SolidColorBrush x:Key="TextColor" Color="#334155"/>
+
+    <SolidColorBrush x:Key="AccentColor" Color="#2563EB"/>
+    <SolidColorBrush x:Key="HoverColor" Color="#CBD5F5"/>
+
+    <SolidColorBrush x:Key="WindowBorderBrush" Color="#D0D7DE"/>
+    <SolidColorBrush x:Key="ScrollBarColor" Color="#CBD5E1"/>
+    <SolidColorBrush x:Key="PopupBackgroundColor" Color="#FFFFFF"/>
+    
+    <SolidColorBrush x:Key="DiscountAccentColor" Color="#FFD6D0"/>
+
+</ResourceDictionary>

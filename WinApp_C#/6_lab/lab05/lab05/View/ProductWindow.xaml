@@ -1,0 +1,247 @@
+﻿<Window x:Class="lab05.ProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Товар"
+        Height="700" Width="800"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+    <!-- ================= STYLES ================= -->
+    <Window.Resources>
+
+        <!-- BORDER -->
+        <Style TargetType="Border">
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="{DynamicResource ButtonsColor}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- TEXTBOX -->
+        <Style TargetType="TextBox">
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="Background" Value="{DynamicResource TextboxColor}"/>
+            <Setter Property="Foreground" Value="{DynamicResource TextColor}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- TEXT -->
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{DynamicResource TextColor}"/>
+        </Style>
+
+        <!-- BUTTON -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{DynamicResource ButtonsColor}"/>
+            <Setter Property="Foreground" Value="{DynamicResource TextColor}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- SCROLLBAR -->
+        <Style TargetType="ScrollBar">
+            <Setter Property="Background" Value="{DynamicResource ScrollBarColor}"/>
+            <Setter Property="Foreground" Value="{DynamicResource AccentColor}"/>
+        </Style>
+
+    </Window.Resources>
+
+    <!-- ================= WINDOW FRAME ================= -->
+    <Border Background="{DynamicResource BackgroundColor}"
+            BorderBrush="{DynamicResource WindowBorderBrush}"
+            BorderThickness="1">
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- ================= TITLE BAR ================= -->
+            <Grid Grid.Row="0"
+                  Background="{DynamicResource ButtonsColor}"
+                  MouseLeftButtonDown="TitleBar_MouseDown">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Товар"
+                           VerticalAlignment="Center"
+                           Margin="10,0"
+                           FontSize="16"
+                           FontWeight="Bold"
+                           Foreground="{DynamicResource BigTextColor}"/>
+
+                <StackPanel Grid.Column="1"
+                            Orientation="Horizontal">
+
+                    <Button Content="—"
+                            Width="40"
+                            Click="Minimize_Click"/>
+
+                    <Button Content="✕"
+                            Width="40"
+                            Click="Close_Click"/>
+                </StackPanel>
+
+            </Grid>
+
+            <!-- ================= CONTENT TOP ================= -->
+            <Grid Grid.Row="1" Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock x:Name="NameText"
+                           FontSize="22"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+
+                <StackPanel Grid.Column="1"
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center">
+
+                    <Button x:Name="EditButton"
+                            Content="{DynamicResource ProductWindowEdit}"
+                            Margin="0,0,10,0"
+                            Visibility="Collapsed"
+                            Click="EditButton_Click"/>
+
+                    <Button x:Name="SaveButton"
+                            Content="{DynamicResource ProductWindowSave}"
+                            Margin="0,0,10,0"
+                            Visibility="Collapsed"
+                            Click="SaveButton_Click"/>
+
+                    <Button x:Name="CancelButton"
+                            Content="{DynamicResource ProductWindowCancel}"
+                            Visibility="Collapsed"
+                            Click="CancelEdit_Click"/>
+
+                    <TextBlock x:Name="RoleText"
+                               VerticalAlignment="Center"
+                               Foreground="{DynamicResource AccentColor}"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- ================= MAIN CONTENT ================= -->
+            <ScrollViewer Grid.Row="2">
+
+                <StackPanel>
+
+                    <!-- IMAGES -->
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="120"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border CornerRadius="10"
+                                Padding="10"
+                                Margin="0,0,10,0"
+                                Background="{DynamicResource ButtonsColor}">
+
+                            <Image x:Name="MainImage"
+                                   Height="250"
+                                   Stretch="Uniform"/>
+                        </Border>
+
+                        <StackPanel Grid.Column="1">
+
+                            <Border CornerRadius="8" Margin="0,0,0,5">
+                                <Image x:Name="Img1"
+                                       Height="70"
+                                       Stretch="UniformToFill"
+                                       MouseDown="Image_Click"/>
+                            </Border>
+
+                            <Border CornerRadius="8" Margin="0,0,0,5">
+                                <Image x:Name="Img2"
+                                       Height="70"
+                                       Stretch="UniformToFill"
+                                       MouseDown="Image_Click"/>
+                            </Border>
+
+                            <Border CornerRadius="8">
+                                <Image x:Name="Img3"
+                                       Height="70"
+                                       Stretch="UniformToFill"
+                                       MouseDown="Image_Click"/>
+                            </Border>
+
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- INFO -->
+                    <StackPanel>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowNameLabel}"/>
+                                <TextBox x:Name="NameBox" IsReadOnly="True"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowPriceLabel}"/>
+                                <TextBox x:Name="PriceBox"
+                                         PreviewTextInput="OnlyFloat"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowDescriptionLabel}"/>
+                                <TextBox x:Name="DescriptionBox"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowCategoryLabel}"/>
+                                <TextBox x:Name="CategoryBox"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowDiscountLabel}"/>
+                                <TextBox x:Name="DiscountBox"
+                                         PreviewTextInput="OnlyFloat"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowQuantityLabel}"/>
+                                <TextBox x:Name="QuantityBox"
+                                         PreviewTextInput="OnlyInt"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border>
+                            <StackPanel>
+                                <TextBlock Text="{DynamicResource ProductWindowCountryLabel}"/>
+                                <TextBox x:Name="CountryBox"
+                                         PreviewTextInput="OnlyString"/>
+                            </StackPanel>
+                        </Border>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,87 @@
+﻿<Window x:Class="lab05.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="550" Width="450"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5">
+
+    <Grid Margin="15">
+
+        <Border Background="White"
+                CornerRadius="10"
+                Padding="15"
+                BorderBrush="#DDD"
+                BorderThickness="1">
+
+            <StackPanel>
+
+                <TextBlock Text="{DynamicResource RegisterNewUser}"
+                           FontSize="22"
+                           FontWeight="Bold"
+                           Margin="0,0,0,15"/>
+
+                <TextBlock Text="{DynamicResource RegisterLogin}"/>
+                <TextBox x:Name="UsernameBox" Margin="0,5,0,10"/>
+
+                <TextBlock Text="{DynamicResource RegisterPassword}"/>
+                <PasswordBox x:Name="PasswordBox1" Margin="0,5,0,10"
+                             LostFocus="IsPasswordsMatch"/>
+
+                <TextBlock Text="{DynamicResource RegisterRepeatPassword}"/>
+                <PasswordBox x:Name="PasswordBox2" Margin="0,5,0,10"
+                             LostFocus="IsPasswordsMatch"/>
+                <TextBlock x:Name="PasswordsError" Visibility="Hidden" Foreground="Red"
+                           Text="{DynamicResource RegisterPasswordsDontMatch}"/>
+
+                <TextBlock Text="{DynamicResource RegisterFirstName}"/>
+                <TextBox x:Name="NameBox" Margin="0,5,0,10"
+                         PreviewTextInput="OnlyString"/>
+
+                <TextBlock Text="{DynamicResource RegisterLastName}"/>
+                <TextBox x:Name="SurnameBox" Margin="0,5,0,10"
+                         PreviewTextInput="OnlyString"/>
+
+                <TextBlock Text="Email"/>
+                <TextBox x:Name="EmailBox" Margin="0,5,0,10"
+                         PreviewTextInput="OnlyText"
+                         LostFocus="EmailCheck"/>
+                <TextBlock x:Name="EmailError"
+                    Text="{DynamicResource RegisterEmailError}"
+                           Visibility="Hidden" Foreground="Red"/>
+                    <StackPanel Grid.Row="1"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Left"
+                                Margin="0,10,0,0">
+
+                        <TextBlock Text="{DynamicResource LanguageLabel}"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,5,0"/>
+
+                        <ComboBox x:Name="LanguageCombo"
+                                  Width="100"
+                                  SelectionChanged="LanguageCombo_SelectionChanged">
+                            <ComboBoxItem Content="Русский"/>
+                            <ComboBoxItem Content="English"/>
+                        </ComboBox>
+
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                Margin="0,15,0,0">
+
+                        <Button Content="{DynamicResource RegisterCancel}"
+                                Width="100"
+                                Margin="0,0,10,0"
+                                Click="CancelButton_Click"/>
+
+                        <Button Content="{DynamicResource RegisterCreate}"
+                                Width="120"
+                                Background="#4CAF50"
+                                Foreground="White"
+                                Click="CreateButton_click"/>
+                    </StackPanel>
+                </StackPanel>
+
+        </Border>
+    </Grid>
+</Window>
