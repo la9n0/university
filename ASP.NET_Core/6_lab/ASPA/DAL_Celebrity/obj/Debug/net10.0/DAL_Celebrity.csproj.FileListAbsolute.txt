@@ -1,0 +1,11 @@
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\bin\Debug\net10.0\DAL_Celebrity.deps.json
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\bin\Debug\net10.0\DAL_Celebrity.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\bin\Debug\net10.0\DAL_Celebrity.pdb
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\DAL_Celebrity.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\DAL_Celebrity.AssemblyInfoInputs.cache
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\DAL_Celebrity.AssemblyInfo.cs
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\DAL_Celebrity.csproj.CoreCompileInputs.cache
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\DAL_Celebrity.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\refint\DAL_Celebrity.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\DAL_Celebrity.pdb
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity\obj\Debug\net10.0\ref\DAL_Celebrity.dll

@@ -1,0 +1,15 @@
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\bin\Debug\net10.0\DAL_Celebrity_MYSQL.deps.json
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\bin\Debug\net10.0\DAL_Celebrity_MYSQL.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\bin\Debug\net10.0\DAL_Celebrity_MYSQL.pdb
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\bin\Debug\net10.0\DAL_Celebrity.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\bin\Debug\net10.0\DAL_Celebrity.pdb
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.csproj.AssemblyReference.cache
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.AssemblyInfoInputs.cache
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.AssemblyInfo.cs
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.csproj.CoreCompileInputs.cache
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Cele.0C0C6888.Up2Date
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\refint\DAL_Celebrity_MYSQL.dll
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\DAL_Celebrity_MYSQL.pdb
+D:\university\4_sem\tpi\6_lab\ASPA\DAL_Celebrity_MYSQL\obj\Debug\net10.0\ref\DAL_Celebrity_MYSQL.dll

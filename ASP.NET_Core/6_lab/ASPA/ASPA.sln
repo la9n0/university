@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Celebrity", "DAL_Celebrity\DAL_Celebrity.csproj", "{3B0B83FA-8459-412F-8F93-816A469D67A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Celebrity_MYSQL", "DAL_Celebrity_MYSQL\DAL_Celebrity_MYSQL.csproj", "{835106B7-A2C1-4130-B0C1-202B3BE4EB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Celebrity_MYSQL_Test", "DAL_Celebrity_MYSQL_Test\DAL_Celebrity_MYSQL_Test.csproj", "{1503B77E-D297-486D-AA8F-2AD1CA828101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPA006_1", "ASPA006_1\ASPA006_1.csproj", "{D553FC51-5909-485C-A12E-A8345DD85472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B0B83FA-8459-412F-8F93-816A469D67A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0B83FA-8459-412F-8F93-816A469D67A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0B83FA-8459-412F-8F93-816A469D67A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0B83FA-8459-412F-8F93-816A469D67A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835106B7-A2C1-4130-B0C1-202B3BE4EB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835106B7-A2C1-4130-B0C1-202B3BE4EB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835106B7-A2C1-4130-B0C1-202B3BE4EB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835106B7-A2C1-4130-B0C1-202B3BE4EB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1503B77E-D297-486D-AA8F-2AD1CA828101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1503B77E-D297-486D-AA8F-2AD1CA828101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1503B77E-D297-486D-AA8F-2AD1CA828101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1503B77E-D297-486D-AA8F-2AD1CA828101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D553FC51-5909-485C-A12E-A8345DD85472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D553FC51-5909-485C-A12E-A8345DD85472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D553FC51-5909-485C-A12E-A8345DD85472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D553FC51-5909-485C-A12E-A8345DD85472}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
