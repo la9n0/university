@@ -1,0 +1,6 @@
+﻿{
+  "Celebrities": {
+    "PhotosFolder": "D:\\university\\4_sem\\tpi\\7_lab\\Celebrities",
+    "ConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CelebrityDB;Integrated Security=True"
+  }
+}

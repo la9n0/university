@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N3Wk23EIzZc=",
+  "dgSpecHash": "FQPyC8au2WE=",
   "success": true,
-  "projectFilePath": "D:\\university\\4_sem\\tpi\\4-5_lab\\ASPA\\Test_DAL004\\Test_DAL004.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\robot\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
-    "C:\\Users\\robot\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
-    "C:\\Users\\robot\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
-    "C:\\Users\\robot\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.23\\microsoft.netcore.app.host.win-x64.8.0.23.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\university\\GitHub\\ASP.NET_Core\\4-5_lab\\ASPA\\Test_DAL004\\Test_DAL004.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

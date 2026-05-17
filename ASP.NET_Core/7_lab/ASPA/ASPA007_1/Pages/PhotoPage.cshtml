@@ -1,0 +1,24 @@
+﻿@page "/Celebrities/{id:int}"
+@model ASPA007_1.Pages.PhotoPageModel
+@{
+    ViewData["Title"] = Model.Celebrity.FullName;
+}
+<div>
+    <h2>@Model.Celebrity.FullName</h2>
+    <img class="photocel" src="~/photo/@Model.Celebrity.ReqPhotoPath" />
+
+    <h3>Life Events</h3>
+    @if (Model.LifeEvents.Count == 0)
+    {
+        <p>No events found.</p>
+    }
+    else
+    {
+        <ul>
+            @foreach (var e in Model.LifeEvents)
+            {
+                <li>@e.Date.ToString("yyyy-MM-dd") — @e.Description</li>
+            }
+        </ul>
+    }
+</div>

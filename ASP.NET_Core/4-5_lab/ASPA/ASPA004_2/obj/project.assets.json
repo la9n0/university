@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\university\\4_sem\\tpi\\4-5_lab\\ASPA\\ASPA004_2\\ASPA004_2.csproj",
+      "projectUniqueName": "D:\\university\\GitHub\\ASP.NET_Core\\4-5_lab\\ASPA\\ASPA004_2\\ASPA004_2.csproj",
       "projectName": "ASPA004_2",
-      "projectPath": "D:\\university\\4_sem\\tpi\\4-5_lab\\ASPA\\ASPA004_2\\ASPA004_2.csproj",
+      "projectPath": "D:\\university\\GitHub\\ASP.NET_Core\\4-5_lab\\ASPA\\ASPA004_2\\ASPA004_2.csproj",
       "packagesPath": "C:\\Users\\robot\\.nuget\\packages\\",
-      "outputPath": "D:\\university\\4_sem\\tpi\\4-5_lab\\ASPA\\ASPA004_2\\obj\\",
+      "outputPath": "D:\\university\\GitHub\\ASP.NET_Core\\4-5_lab\\ASPA\\ASPA004_2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\university\\4_sem\\tpi\\4-5_lab\\ASPA\\DAL004\\DAL004.csproj": {
-              "projectPath": "D:\\university\\4_sem\\tpi\\4-5_lab\\ASPA\\DAL004\\DAL004.csproj"
+            "D:\\university\\GitHub\\ASP.NET_Core\\4-5_lab\\ASPA\\DAL004\\DAL004.csproj": {
+              "projectPath": "D:\\university\\GitHub\\ASP.NET_Core\\4-5_lab\\ASPA\\DAL004\\DAL004.csproj"
             }
           }
         }
@@ -75,7 +75,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -91,24 +91,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -117,7 +99,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
